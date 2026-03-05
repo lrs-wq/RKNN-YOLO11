@@ -1,0 +1,8 @@
+# 1. 忽略所有文件
+*
+
+# 2. 也就是“不忽略” Dockerfile (保留它)
+!Dockerfile
+
+# 3. “不忽略” requirements.txt (保留它)
+!requirements.txt
