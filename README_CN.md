@@ -1,3 +1,12 @@
+## 许可证与商业使用 / License and commercial use
+
+**本仓库中维护者有权许可的原创内容采用 [PolyForm Noncommercial 1.0.0](LICENSE)，仅许可非商业用途；商业使用须另行取得书面授权。**
+第三方内容、必须保留上游许可的部分及旧版本已授予的权利不受此变更覆盖。详见 [版权与第三方声明](COPYRIGHT.md)。
+
+Original material the maintainer is entitled to license is available for noncommercial purposes under [PolyForm Noncommercial 1.0.0](LICENSE). Commercial use requires separate written permission. Third-party and previously granted rights are preserved; see [COPYRIGHT.md](COPYRIGHT.md).
+
+> Licensing notice and license link updated by lrs-wq on 2026-10-16. The upstream text below retains its original Apache 2.0 terms.
+
 [简体中文](README_CN.md) | [English](README.md)
 
 
@@ -197,5 +206,5 @@ RKNN Model Zoo 的例程基于当前最新的 RKNPU SDK 进行验证。若使用
 
 ## 许可证
 
-[Apache License 2.0](./LICENSE)
+[Apache License 2.0 — upstream / 上游内容](./LICENSE-APACHE-2.0)
 

@@ -1,5 +1,12 @@
 # YOLO11 C++ 到 Python 接口绑定说明
 
+## 许可证与商业使用 / License and commercial use
+
+**本仓库中维护者有权许可的原创内容采用 [PolyForm Noncommercial 1.0.0](LICENSE)，仅许可非商业用途；商业使用须另行取得书面授权。**
+第三方内容、必须保留上游许可的部分及旧版本已授予的权利不受此变更覆盖。详见 [版权与第三方声明](COPYRIGHT.md)。
+
+Original material the maintainer is entitled to license is available for noncommercial purposes under [PolyForm Noncommercial 1.0.0](LICENSE). Commercial use requires separate written permission. Third-party and previously granted rights are preserved; see [COPYRIGHT.md](COPYRIGHT.md).
+
 本文档主要对 `yolo11/cpp/rtsp_python_binding.cc` 的底层 C++ 接口代码进行解读。这套代码利用了 `pybind11` 的特性，将复杂的 RTSP 解码、YOLO 模型推理、RKNN 底层 C API，直接暴露给 Python 进行灵活的业务开发。
 
 ## 1. 编译指南
