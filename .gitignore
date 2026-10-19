@@ -54,3 +54,7 @@ result/
 # for unittest
 unittest/example_test_result
 unittest/env_config.py
+
+# Selected README documentation assets only
+!/docs/showcase/workflow.svg
+!/docs/showcase/callback-preview.gif
